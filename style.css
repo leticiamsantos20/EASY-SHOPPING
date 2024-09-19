@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #5D5D7D
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    padding: 116px;
+}
+
+.container-right {
+    background: rgba(93, 93, 125, 0.16);
+    display: inline-block;
+    height: 10041px;
+    position: absolute;
+}
+
+img {
+    position: relative;
+    top: 262px;
+    right: 130px;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 70px;
+    color: #5D5D7D;
+    width: 368px;
+    height: 168px;
+    margin-top: 365px;
+}
+
+p {
+    font-size: 26px;
+    line-height: 48px;
+    opacity: .7;
+    margin: 15px 0;
+    width: 550px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    border-radius: 35px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .4;
+}
+
+span {
+    opacity: .4;
+}
+
+a {
+    font-size: 28px;
+    line-height: 41px;
+    margin-right: 41px;
+    cursor: pointer;
+    align-items: center;
+}
+
+a:nth-child {
+    color: #5D5D7D;
+    opacity: .5;
+}
+
+a:hover {
+    color: #9499EA;
+}
+
+a:active {
+    opacity: .8;
+}
+
+header {
+    margin: 24px 0 0 57px;
+}
+
+@media (min-width:400px) and (max-width:991px)  {
+
+    .container-left {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50%;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 40px;
+        position: static;
+    }
+
+    img {
+        position: static;
+        width: 271px;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        width: 219px;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        margin: 66px 113px 0px;
+    }
+
+    .button {
+        display: block;
+        margin: 19px 108px 19px;
+    }
+
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        opacity: 60px;
+        width: 296px;
+        margin: 0px 75px;
+    }
+}
