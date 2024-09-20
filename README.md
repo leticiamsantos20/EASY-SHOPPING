@@ -1,8 +1,8 @@
 <h1>Easy Shopping</h1>
 <br>
 <h2>Sobre</h2>
-<p span style ="font-family: "Montserrat, sans-serif">
-Projeto realizado no <a href="https://rodolfomori.com.br/devclub-n1/">DevClub</a>, trabalhando a parte de responsividade, projeto baseado no figma.</p>
+ <span style="font-family: "Montserrat, sans-serif">
+Projeto realizado no <a href="https://rodolfomori.com.br/devclub-n1/">DevClub</a>, trabalhando a parte de responsividade, projeto baseado no figma.</span>
 
 <h2> Tecnologias </h2>
 <br>
